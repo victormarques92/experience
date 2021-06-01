@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Experience</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Professional Experiences</h1>
+
+    <form name="registration" class="form">
+      <div class="row">
+        <div class="col-6 box-input">
+          <label class="label" for="companyName">Nome da empresa</label>
+          <input
+            class="input"
+            type="text"
+            name="companyName"
+            id="companyName"
+            placeholder="Digite..."
+          />
+        </div>
+
+        <div class="col-6 box-input">
+          <label class="label" for="job">Cargo</label>
+          <input
+            class="input"
+            type="text"
+            name="job"
+            id="job"
+            placeholder="Digite..."
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 box-input">
+          <label class="label" for="startDate">Data inicial</label>
+          <input
+            class="input"
+            type="date"
+            name="startDate"
+            id="startDate"
+            placeholder="Digite..."
+          />
+        </div>
+
+        <div class="col-6 box-input">
+          <label class="label" for="endDate">Data final</label>
+          <input
+            class="input"
+            type="date"
+            name="endDate"
+            id="endDate"
+            placeholder="Digite..."
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 box-textarea">
+          <label for="description" class="label">Descrição</label
+          ><textarea
+            class="textarea"
+            name="description"
+            id="description"
+            placeholder="Digite..."
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="box-buttons">
+        <button class="btn default" type="reset">Limpar</button>
+
+        <button class="btn primary" type="submit">Submit</button>
+      </div>
+    </form>
+
+    <section id="experiences">
+      <ul class="box-experience">
+        <li class="experience">
+          <div class="avatar">V</div>
+
+          <div class="content">
+            <h3 class="company">Victor Marques Digital</h3>
+            <p class="job">Desenvolvedor Front-end</p>
+            <p class="period">Maio/2020 - até o momento</p>
+            <p class="description">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia.
+            </p>
+          </div>
+        </li>
+        <li class="experience">
+          <div class="avatar">V</div>
+
+          <div class="content">
+            <h3 class="company">Victor Marques Digital</h3>
+            <p class="job">Desenvolvedor Front-end</p>
+            <p class="period">Maio/2020 - até o momento</p>
+            <p class="description">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
